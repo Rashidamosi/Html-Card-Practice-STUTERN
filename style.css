@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #ffffff; */
+    /* color: #090809; */
+}
+
+
+button{
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+   
+}
+
+body{
+    font-family: 'poppins', 'sans-serif';
+    /* font-weight: 500; */
+    font-size: 16px;
+    
+}
+
+/* For header text */
+.Header_text{
+    text-align: center;
+}
+
+
+
+/* PRICING CARDS */
+
+::selection{
+    background-color: #010e85;
+    color: #ffffff;
+}
+
+.padding{
+   padding: 40px;
+   float: left;
+   font-size: 40px;
+}
+
+button{
+    padding: 9px 25px;
+    border: 1px solid #080914;;
+    border-color:#080914;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    width: 200px;
+    background-color: #ffffff;
+}   
+/* 
+Button in pricing card */
+.ctaB button{
+ font-size: 1.9rem;
+ margin-top: 20px;
+ transform: uppercase;
+ letter-spacing: 0.5px;
+ width: 150px;
+
+}
+
+
+#pricing-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 5vh;
+   
+}
+    
+.price-box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+   
+}
+
+.price-box{
+    width: 265px;
+    border-radius: 5px;
+    height: auto;
+    margin: 10px;
+  
+}
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    border: 1.4px solid #ebebee;
+    border-bottom: 6px solid #ebebee;
+    border-radius: 10px;
+
+} 
+
+/*stacking them */
+.plan-name{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: 10px 5px;
+}
+
+.plan-name strong{
+    color: #090809;
+    margin: 5px 0px;
+
+}
+
+.plan-name span{
+    color: #090809;
+    font-size: 0.8rem;
+
+}
+
+/* I can't seem to make those text go left. so I am leaving it for now*/
+.plan-names{
+    justify-content:left;
+    margin: 5px 0px;
+    text-align: left;
+
+}
+
+/* Feature check */
+.features-section{
+    /* border-top: 1px solid #c7c7c7; */
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solic #ebebeb; 
+}
+
+.feature-box{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #fdfdff;
+}
+
+.feature-box i{
+    color: #090809;
+    margin-right: 7px;
+    font-size: 0.9rem;
+
+}
+
+.feature-box span{
+    color: #090809;
+    font-size: 0.8rem;
+}
+
+.feature-box:hover{
+    background-color:#f6f6f6f6;
+    transition: all ease 0.3s;
+}
+/* 
+    display: block; */
+
+
