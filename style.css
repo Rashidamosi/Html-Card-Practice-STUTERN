@@ -69,21 +69,7 @@ Button in pricing card */
 
 }
 
-button:hover{
-   background-color: #eb1d43;
-   color: #ffffff;
-   border: none;
-}
-#pricing-cards{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    min-height: 5vh;
-   
-}
-    
+
 .price-box-container{
     display: flex;
     justify-content: center;
