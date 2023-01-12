@@ -74,6 +74,8 @@ button:hover{
    color: #ffffff;
    border: none;
 }
+
+
 #pricing-cards{
     display: flex;
     justify-content: center;
