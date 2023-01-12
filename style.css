@@ -68,7 +68,11 @@ Button in pricing card */
 
 }
 
-
+button:hover{
+   background-color: #ff143f;
+   color: #ffffff;
+   border: none;
+}
 #pricing-cards{
     display: flex;
     justify-content: center;
